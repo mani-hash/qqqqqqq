@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --progress",
+    "start": "npm run dev",
     "dev": "nodemon server/index.js --exec babel-node"
   },
   "author": "Polkatu Party",
